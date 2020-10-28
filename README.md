@@ -1,4 +1,14 @@
-Cherry-Compatible Keyswitch Tester
+Cherry-Compatible Keyswitch Tester for the DROP sample pack
+==================================
+
+A fork of CandyGumdrop/keyswitch-tester that is more oriented for DROP's [switch sample pack](https://drop.com/buy/assorted-mechanical-mx-switches-sampler-pack)
+
+Notable changes:
+* Increased switch count to 20
+* Increased resistor value to 680 as LEDs I have are bright enough at 5mA
+* Redesigned PCB a bit, re-arranged keys, added printed names of switches included with the sample pack to top layer
+* This also lets us stay below 100mA total current draw if you press all at once for whatever reason
+
 ==================================
 
 This is a simple keyswitch tester PCB for Cherry-compatible mechanical keyboard
